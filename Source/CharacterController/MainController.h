@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
 #include "MainController.generated.h"
 
 UCLASS()
@@ -15,15 +17,57 @@ public:
 	// Sets default values for this character's properties
 	AMainController();
 
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float normalSpeed = 50.0f;
+
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float runSpeed = 50.0f;
+
+	
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float rotationSpeed = 50.0f;
+
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float strafeRatio = 1.0f;
+	
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	virtual void BeginPlay                () override;
+	virtual void Tick                     ( float DeltaTime ) override;
+	virtual void SetupPlayerInputComponent( class UInputComponent* PlayerInputComponent ) override;
+private:	
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	UFUNCTION()
+	void Move(const FInputActionValue& InputValue);
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	UFUNCTION()
+	void StartRunning();
+	
+	UFUNCTION()
+	void StopRunning();
 
+	UFUNCTION()
+	void RotateCamera(const FInputActionValue& InputValue);
+	
+	UPROPERTY()
+	TObjectPtr<APlayerController> PlayerController;
+
+	UPROPERTY( EditAnywhere, Category = "EnhancedInput" );
+	TObjectPtr<UInputMappingContext> InputMapping;
+
+	UPROPERTY( EditAnywhere, Category = "EnhancedInput" );
+	TObjectPtr<UInputAction> moveAction;
+
+	UPROPERTY( EditAnywhere, Category = "EnhancedInput" );
+	TObjectPtr<UInputAction> lookAction;
+
+	UPROPERTY( EditAnywhere, Category = "EnhancedInput" );
+	TObjectPtr<UInputAction> runAction;
+
+	
+	UPROPERTY();
+	FVector2D MoveAxisValue = {};
+
+
+	UPROPERTY()
+	bool bIsRunning = false;
 };
