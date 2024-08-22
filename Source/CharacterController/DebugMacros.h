@@ -18,7 +18,7 @@ GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, FString::Printf(TEXT(T
 GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, FString::Printf(TEXT(Text " %s"), Value ? TEXT("True") : TEXT("False")))
 
 #define DEBUG_VECTOR(Text,Vector) \
-GEngine->AddOnScreenDebugMessage(-1, 50.0f, FColor::Green, FString::Printf(TEXT(Text " %s"), *Vector.ToString()))
+GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::Green, FString::Printf(TEXT(Text " %s"), *Vector.ToString()))
 
 #define DEBUG_INT(Text,Value) \
 GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, FString::Printf(TEXT(Text " %d"), Value ))
