@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SOTC_Character.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SOTC_Character.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SOTC_CharacterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\SOTC_Character.sln.DotSettings.user" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SOTC_Character">
+      <UniqueIdentifier>{BCD89FB4-C9A8-3FAB-AC15-5994C8DAE84B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SOTC_Character\CharacterController.cpp">
+      <Filter>Source\SOTC_Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SOTC_Character\CharacterController.h">
+      <Filter>Source\SOTC_Character</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SOTC_Character\SOTC_Character.Build.cs">
+      <Filter>Source\SOTC_Character</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SOTC_Character\SOTC_Character.cpp">
+      <Filter>Source\SOTC_Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SOTC_Character\SOTC_Character.h">
+      <Filter>Source\SOTC_Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

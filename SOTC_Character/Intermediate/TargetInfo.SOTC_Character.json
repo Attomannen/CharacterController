@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SOTC_Character",
+			"Path": "..\\Source\\SOTC_Character.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SOTC_CharacterEditor",
+			"Path": "..\\Source\\SOTC_CharacterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SOTC_Character.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\SOTC_CharacterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\SOTC_Character.cpp.obj"
+"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\Default.rc2.res"
+/OUT:"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\UnrealEditor-SOTC_Character.lib"
