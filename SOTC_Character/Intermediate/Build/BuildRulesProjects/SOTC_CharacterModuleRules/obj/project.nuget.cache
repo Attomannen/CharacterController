@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JuxB+JJTRzA=",
+  "dgSpecHash": "DGr3AzNz6wg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\antobrom\\Documents\\SOTC-Character\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj",
+  "projectFilePath": "C:\\Users\\antobrom\\Documents\\Unreal Projects\\CharacterControlller\\CharacterController\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antobrom\\.nuget\\packages\\bitfaster.caching\\2.4.1\\bitfaster.caching.2.4.1.nupkg.sha512",
     "C:\\Users\\antobrom\\.nuget\\packages\\blake3\\0.5.1\\blake3.0.5.1.nupkg.sha512",

@@ -1,11 +1,11 @@
-"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Source\SOTC_Character\CharacterController.cpp"
-/FI"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\SOTC_CharacterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\Definitions.SOTC_Character.h"
-/Yu"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\SOTC_CharacterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\SOTC_CharacterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\CharacterController.cpp.obj"
-/sourceDependencies "C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\CharacterController.cpp.dep.json"
-@"C:\Users\antobrom\Documents\SOTC-Character\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\SOTC_Character.Shared.rsp"
+"C:\Users\antobrom\Documents\Unreal Projects\CharacterControlller\CharacterController\SOTC_Character\Source\SOTC_Character\CharacterController.cpp"
+/FI"C:\Users\antobrom\Documents\Unreal Projects\CharacterControlller\CharacterController\SOTC_Character\Intermediate\Build\Win64\x64\SOTC_CharacterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\antobrom\Documents\Unreal Projects\CharacterControlller\CharacterController\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\Definitions.SOTC_Character.h"
+/Yu"C:\Users\antobrom\Documents\Unreal Projects\CharacterControlller\CharacterController\SOTC_Character\Intermediate\Build\Win64\x64\SOTC_CharacterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\antobrom\Documents\Unreal Projects\CharacterControlller\CharacterController\SOTC_Character\Intermediate\Build\Win64\x64\SOTC_CharacterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Users\antobrom\Documents\Unreal Projects\CharacterControlller\CharacterController\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\CharacterController.cpp.obj"
+/sourceDependencies "C:\Users\antobrom\Documents\Unreal Projects\CharacterControlller\CharacterController\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\CharacterController.cpp.dep.json"
+@"C:\Users\antobrom\Documents\Unreal Projects\CharacterControlller\CharacterController\SOTC_Character\Intermediate\Build\Win64\x64\UnrealEditor\Development\SOTC_Character\SOTC_Character.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

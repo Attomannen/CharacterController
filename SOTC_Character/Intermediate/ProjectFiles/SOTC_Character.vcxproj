@@ -254,6 +254,7 @@
     <None Include="..\..\Source\SOTC_CharacterEditor.Target.cs"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\SOTC_Character.sln.DotSettings.user"/>
+    <None Include="..\..\UpgradeLog.htm"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
@@ -262,6 +263,10 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\SOTC_Character\CharacterController.h"/>
+    <ClCompile Include="..\..\Source\SOTC_Character\ClimbComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SOTC_Character\ClimbComponent.h"/>
     <None Include="..\..\Source\SOTC_Character\SOTC_Character.Build.cs"/>
     <ClCompile Include="..\..\Source\SOTC_Character\SOTC_Character.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

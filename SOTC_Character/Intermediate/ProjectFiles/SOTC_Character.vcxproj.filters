@@ -13,6 +13,7 @@
     </None>
     <None Include="..\..\.vsconfig" />
     <None Include="..\..\SOTC_Character.sln.DotSettings.user" />
+    <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -35,6 +36,12 @@
       <Filter>Source\SOTC_Character</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SOTC_Character\CharacterController.h">
+      <Filter>Source\SOTC_Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SOTC_Character\ClimbComponent.cpp">
+      <Filter>Source\SOTC_Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SOTC_Character\ClimbComponent.h">
       <Filter>Source\SOTC_Character</Filter>
     </ClInclude>
     <None Include="..\..\Source\SOTC_Character\SOTC_Character.Build.cs">

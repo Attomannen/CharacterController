@@ -1,146 +1,59 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
+
 #include "CoreMinimal.h"
+#include "ClimbComponent.h"
 #include "GameFramework/Character.h"
 #include "EnhancedInputComponent.h"
-#include "EnhancedInputSubsystems.h"
+#include "EnhancedInputSubsystemInterface.h"
+#include "InputActionValue.h"
 #include "Camera/CameraComponent.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "CharacterController.generated.h"
 
 UCLASS()
+
 class SOTC_CHARACTER_API ACharacterController : public ACharacter
 {
-public:
-	
 	GENERATED_BODY()
+
+public:
 	ACharacterController();
-	UPROPERTY();
-	TObjectPtr<APlayerCameraManager> playerCamera;
-	
-	UPROPERTY(EditAnywhere, Category = "Movement")
-	float normalSpeed = 50.0f;
-	
-	UPROPERTY(EditAnywhere, Category = "Movement")
-	float runSpeed = 50.0f;
 
-	
-	UPROPERTY(EditAnywhere, Category = "Movement")
-	float rotationSpeed = 50.0f;
+protected:
+	virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere, Category = "Movement")
-	float strafeRatio = 1.0f;
-	
-	virtual void BeginPlay                () override;
-	virtual void Tick                     ( float DeltaTime ) override;
-	virtual void SetupPlayerInputComponent( class UInputComponent* PlayerInputComponent ) override;
-	virtual void Jump() override;
-	
-private:	
+public:
+	virtual void Tick(float DeltaTime) override;
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
 
-	UFUNCTION()
-	void Move(const FInputActionValue& InputValue);
+	// Movement methods
+	void Move(const FInputActionValue& Value);
+	void Look(const FInputActionValue& Value);
+	void Jump() override;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	UCameraComponent* CameraComponent;
 
-	
-	UFUNCTION()
-	void StopMove();
-	
-	UFUNCTION()
-	void StartLedgeGrabCooldown();
-	
-	UFUNCTION()
-	void ResetLedgeGrabCooldown();
-	
-	UFUNCTION()
-	void SmoothMoveToLedge(float DeltaTime);
-	
-	UFUNCTION()
-	void LedgeGrab();
-	
-	UFUNCTION()
-	void StartRunning();
-	
-	UFUNCTION()
-	void StopRunning();
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	USpringArmComponent* CameraBoom;
 
-	UFUNCTION()
-	void UpdateSpeed(float DeltaTime);
-	
-	UFUNCTION()
-	void SmoothUpdateRotation(float DeltaTime);
+	FVector MovementInputVector {};
+	UClimbComponent* ClimbComponent = nullptr;
+private:
 
-	UFUNCTION()
-	void RotateCamera(const FInputActionValue& InputValue);
-	
-	UPROPERTY()
-	TObjectPtr<APlayerController> PlayerController;
+	// Input actions
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input", meta = (AllowPrivateAccess = "true"))
+	UInputAction* MoveAction;
 
-	UPROPERTY( EditAnywhere, Category = "EnhancedInput" );
-	TObjectPtr<UInputMappingContext> InputMapping;
-
-	UPROPERTY( EditAnywhere, Category = "EnhancedInput" );
-	TObjectPtr<UInputAction> moveAction;
-
-	UPROPERTY( EditAnywhere, Category = "EnhancedInput" );
-	TObjectPtr<UInputAction> lookAction;
-
-	UPROPERTY( EditAnywhere, Category = "EnhancedInput" );
-	TObjectPtr<UInputAction> runAction;
-	
-	UPROPERTY( EditAnywhere, Category = "EnhancedInput" );
-	TObjectPtr<UInputAction> jumpAction;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input", meta = (AllowPrivateAccess = "true"))
+	UInputAction* LookAction;
 
 
-	
-	UPROPERTY();
-	FVector2D MoveAxisValue = {};
-	
-	UPROPERTY();
-	FVector MovementDirection = {};
-	
-	UPROPERTY();
-	bool bIsAtLedge = false;
-	
-	UPROPERTY();
-	float currentSpeed = 50.0f;
-	
-	UPROPERTY();
-	float LedgeCheckOffset = 2.0f;
-	
-	UPROPERTY();
-	float LedgeDetectionDistance = 2.0f;
-	
-	UPROPERTY();
-	float accelerationRate = 50.0f;
-	
-	UPROPERTY();
-	float decelerationRate = 50.0f;
-	
-	UPROPERTY();
-	float rotationInterpSpeed = 50.0f;
-	
-	UPROPERTY();
-	bool bCanGrabLedge = true;
-	
-	UPROPERTY();
-	float LedgeGrabCooldown = 1.0f;
-	
-	UPROPERTY();
-	FTimerHandle LedgeGrabCooldownTimer;
-	
-	UPROPERTY()
-	bool bIsRunning = false;
-	
-	UPROPERTY()
-	bool bIsClimbingLedge = false;
-	
-	UPROPERTY()
-	FVector ledgeTargetLocation;
-	
-	UPROPERTY()
-	bool bIsMovingAlongLedge = false;
-	
-	UPROPERTY()
-	float ledgeMoveSpeed = 200.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input", meta = (AllowPrivateAccess = "true"))
+	UInputAction* JumpAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input", meta = (AllowPrivateAccess = "true"))
+	UInputMappingContext* InputMappingContext;
 
 };

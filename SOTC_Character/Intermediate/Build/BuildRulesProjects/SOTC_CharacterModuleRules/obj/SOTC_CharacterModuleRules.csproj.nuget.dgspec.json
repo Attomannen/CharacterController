@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antobrom\\Documents\\SOTC-Character\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj": {}
+    "C:\\Users\\antobrom\\Documents\\Unreal Projects\\CharacterControlller\\CharacterController\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj": {}
   },
   "projects": {
     "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj": {
@@ -1098,14 +1098,14 @@
         }
       }
     },
-    "C:\\Users\\antobrom\\Documents\\SOTC-Character\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj": {
+    "C:\\Users\\antobrom\\Documents\\Unreal Projects\\CharacterControlller\\CharacterController\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antobrom\\Documents\\SOTC-Character\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj",
+        "projectUniqueName": "C:\\Users\\antobrom\\Documents\\Unreal Projects\\CharacterControlller\\CharacterController\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj",
         "projectName": "SOTC_CharacterModuleRules",
-        "projectPath": "C:\\Users\\antobrom\\Documents\\SOTC-Character\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj",
+        "projectPath": "C:\\Users\\antobrom\\Documents\\Unreal Projects\\CharacterControlller\\CharacterController\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\SOTC_CharacterModuleRules.csproj",
         "packagesPath": "C:\\Users\\antobrom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antobrom\\Documents\\SOTC-Character\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\obj\\",
+        "outputPath": "C:\\Users\\antobrom\\Documents\\Unreal Projects\\CharacterControlller\\CharacterController\\SOTC_Character\\Intermediate\\Build\\BuildRulesProjects\\SOTC_CharacterModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\antobrom\\AppData\\Roaming\\NuGet\\NuGet.Config"

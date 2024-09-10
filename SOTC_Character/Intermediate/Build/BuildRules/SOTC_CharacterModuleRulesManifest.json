@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\antobrom\\Documents\\SOTC-Character\\SOTC_Character\\Source\\SOTC_Character\\SOTC_Character.Build.cs",
-		"C:\\Users\\antobrom\\Documents\\SOTC-Character\\SOTC_Character\\Source\\SOTC_Character.Target.cs",
-		"C:\\Users\\antobrom\\Documents\\SOTC-Character\\SOTC_Character\\Source\\SOTC_CharacterEditor.Target.cs"
+		"C:\\Users\\antobrom\\Documents\\Unreal Projects\\CharacterControlller\\CharacterController\\SOTC_Character\\Source\\SOTC_Character\\SOTC_Character.Build.cs",
+		"C:\\Users\\antobrom\\Documents\\Unreal Projects\\CharacterControlller\\CharacterController\\SOTC_Character\\Source\\SOTC_Character.Target.cs",
+		"C:\\Users\\antobrom\\Documents\\Unreal Projects\\CharacterControlller\\CharacterController\\SOTC_Character\\Source\\SOTC_CharacterEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.3"
 }

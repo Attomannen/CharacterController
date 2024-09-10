@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\intermediate\\build\\win64\\unrealeditor\\inc\\sotc_character\\uht\\sotc_character.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\intermediate\\build\\win64\\x64\\sotc_charactereditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\sotc_character\\definitions.sotc_character.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

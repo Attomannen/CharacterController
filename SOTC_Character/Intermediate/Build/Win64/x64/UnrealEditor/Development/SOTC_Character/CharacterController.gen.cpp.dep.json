@@ -1,12 +1,14 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\antobrom\\documents\\sotc-character\\sotc_character\\intermediate\\build\\win64\\unrealeditor\\inc\\sotc_character\\uht\\charactercontroller.gen.cpp",
+        "Source": "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\intermediate\\build\\win64\\unrealeditor\\inc\\sotc_character\\uht\\charactercontroller.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\antobrom\\documents\\sotc-character\\sotc_character\\intermediate\\build\\win64\\x64\\sotc_charactereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\intermediate\\build\\win64\\x64\\sotc_charactereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\antobrom\\documents\\sotc-character\\sotc_character\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sotc_character\\definitions.sotc_character.h",
-            "c:\\users\\antobrom\\documents\\sotc-character\\sotc_character\\source\\sotc_character\\charactercontroller.h",
+            "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sotc_character\\definitions.sotc_character.h",
+            "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\source\\sotc_character\\charactercontroller.h",
+            "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\source\\sotc_character\\climbcomponent.h",
+            "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\intermediate\\build\\win64\\unrealeditor\\inc\\sotc_character\\uht\\climbcomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
@@ -25,7 +27,6 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputtriggers.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputaction.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputcomponent.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputsubsystems.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputsubsysteminterface.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedplayerinput.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerinput.h",
@@ -36,10 +37,7 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\playermappablekeyslot.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\playermappablekeyslot.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsysteminterface.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsystems.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
-            "c:\\users\\antobrom\\documents\\sotc-character\\sotc_character\\intermediate\\build\\win64\\unrealeditor\\inc\\sotc_character\\uht\\charactercontroller.generated.h"
+            "c:\\users\\antobrom\\documents\\unreal projects\\charactercontrolller\\charactercontroller\\sotc_character\\intermediate\\build\\win64\\unrealeditor\\inc\\sotc_character\\uht\\charactercontroller.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
